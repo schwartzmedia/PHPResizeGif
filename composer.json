@@ -1,22 +1,28 @@
 {
-  "name": "grandt/phpresizegif",
+  "name": "schwartzmedia/phpresizegif",
   "type": "library",
   "description": "GIF89a compliant Gif resizer, including transparency and optimized gifs with sub sized elements.",
   "keywords": ["gif", "animated gif", "resize", "GIF89a"],
-  "homepage": "https://github.com/Grandt/PHPResizeGif",
+  "homepage": "https://github.com/schwartzmedia/PHPResizeGif",
   "minimum-stability": "stable",
   "license": "LGPL-2.1",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "A. Grandt",
       "email": "php@grandt.com",
       "homepage": "http://grandt.com",
       "role": "Developer"
+    },
+    {
+      "name": "Patrick B",
+      "email": "patrickb@schwartzmedia.com.au",
+      "homepage": "https://schwartzmedia.com.au",
+      "role": "Developer"
     }
   ],
   "require": {
-    "grandt/binstring": ">=0.2.0",
+    "schwartzmedia/binstring": "1.1.0",
     "php": ">=5.3.0"
   },
   "autoload": {
